@@ -1,0 +1,5 @@
+source_file = open('test.txt', 'w')
+print(1, 2, 'AAA', 'FFF', sep='!!!', file=source_file)
+source_file.close()
+print('222', 'rrr', 666, sep='\t')
+print(333, 'F', sep='')
